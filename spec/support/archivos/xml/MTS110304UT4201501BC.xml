@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BCE:Balanza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BCE="www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion" Version="1.1" RFC="MTS110304UT4" Mes="01" Anio="2015" TipoEnvio="C" FechaModBal="2015-01-31" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion/BalanzaComprobacion_1_1.xsd">
+  <BCE:Ctas NumCta="0101010209" SaldoIni="3000.00" Debe="-1500.01" Haber="1499.99" SaldoFin="1499.99"/>
+  <BCE:Ctas NumCta="0101010204" SaldoIni="1000000.22" Debe="-100.00" Haber="200.22" SaldoFin="6666.66"/>
+  <BCE:Ctas NumCta="0101010203" SaldoIni="-1500.01" Debe="0" Haber="6666.66" SaldoFin="-1500.01"/>
+  <BCE:Ctas NumCta="0101010202" SaldoIni="1499.99" Debe="1499.99" Haber="0" SaldoFin="-100.00"/>
+  <BCE:Ctas NumCta="0101010201" SaldoIni="-100.00" Debe="200.22" Haber="-1500.01" SaldoFin="0"/>
+</BCE:Balanza>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogocuentas:Catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:catalogocuentas="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas" Version="1.1" RFC="MTS110304UT4" Mes="01" Anio="2015" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas/CatalogoCuentas_1_1.xsd">
+  <catalogocuentas:Ctas CodAgrup="103.01" NumCta="0101010209" Desc="Cuenta 1" Nivel="1" Natur="D"/>
+  <catalogocuentas:Ctas CodAgrup="110.01" NumCta="0101010204" Desc="Cuenta 2" SubCtaDe="Cuenta 1" Nivel="2" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="251.01" NumCta="0101010203" Desc="Cuenta 3" Nivel="1" Natur="D"/>
+  <catalogocuentas:Ctas CodAgrup="216.05" NumCta="0101010202" Desc="Súper cuenta 4" SubCtaDe="Cuenta 2" Nivel="3" Natur="A"/>
+  <catalogocuentas:Ctas CodAgrup="614.04" NumCta="0101010201" Desc="Cuentáme otra" SubCtaDe="Súper cuenta" Nivel="4" Natur="A"/>
+</catalogocuentas:Catalogo>
